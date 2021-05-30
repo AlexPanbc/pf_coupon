@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54d754c2-6159-4345-b9cb-9bf4ca575de7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="288" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pSgEnTGFdPFkJjIFV5R9hL7L9x" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="MyBatisLogPluginindexNum" value="65" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="ToolWindowCoverage.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/work/工作资料/富友开放文档/aggregatePayDemo" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.coupon.entity" />
+      <recent name="com.coupon.service" />
+      <recent name="com.coupon.mapper" />
+      <recent name="com.coupon.controller" />
+      <recent name="com.coupon.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\test\pf_coupon\src\main\java\com\coupon" />
+      <recent name="C:\test\pf_coupon\src\main\resources\mapper" />
+      <recent name="C:\work\code\pf_coupon\src\main\java\com\coupon\mapper\group" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PfCouponApplicationTests.contextLoads">
+    <configuration name="PfCouponApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pf_coupon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coupon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coupon" />
+      <option name="MAIN_CLASS_NAME" value="com.coupon.PfCouponApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PfCouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pf_coupon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coupon.PfCouponApplication" />
+      <option name="VM_PARAMETERS" value="-Dspring.output.ansi.enabled=ALWAYS -Dlog4j.skipJansi=false" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_261\jre" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PfCouponApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54d754c2-6159-4345-b9cb-9bf4ca575de7" name="Default Changelist" comment="" />
+      <created>1615181795455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615181795455</updated>
+      <workItem from="1615181798249" duration="36412000" />
+      <workItem from="1615347811200" duration="30351000" />
+      <workItem from="1615970519933" duration="2907000" />
+      <workItem from="1616050491834" duration="790000" />
+      <workItem from="1616481358346" duration="15671000" />
+      <workItem from="1620727824232" duration="3388000" />
+      <workItem from="1620732302902" duration="2511000" />
+      <workItem from="1620787032298" duration="181000" />
+      <workItem from="1620787267355" duration="1164000" />
+      <workItem from="1620788500542" duration="12335000" />
+      <workItem from="1620807238319" duration="9813000" />
+      <workItem from="1620876260030" duration="11034000" />
+      <workItem from="1620975718297" duration="7180000" />
+      <workItem from="1621151479327" duration="2881000" />
+    </task>
+    <task id="LOCAL-00001" summary="增加多数据源配置">
+      <created>1615193504193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615193504193</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加监听拼团结束时间的数据，修改活动状态">
+      <created>1615197020362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615197020363</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加监听拼团结束时间的数据，修改活动状态">
+      <created>1615197075878</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615197075878</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加监听拼团结束时间的数据，修改活动状态,增加写入队列">
+      <created>1615199434933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615199434933</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加监听拼团结束时间的数据，修改活动状态,增加写入队列">
+      <created>1615278749144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615278749144</updated>
+    </task>
+    <task id="LOCAL-00006" summary="增加监听拼团结束时间的数据，修改活动状态,增加写入队列">
+      <created>1615279138301</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615279138301</updated>
+    </task>
+    <task id="LOCAL-00007" summary="业务端同步接口">
+      <created>1615290019898</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615290019898</updated>
+    </task>
+    <task id="LOCAL-00008" summary="业务端同步接口,处理同步的四种状态">
+      <created>1615433209666</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615433209666</updated>
+    </task>
+    <task id="LOCAL-00009" summary="业务端同步接口,处理同步的四种状态">
+      <created>1615433637247</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615433637247</updated>
+    </task>
+    <task id="LOCAL-00010" summary="业务端同步接口,处理同步的四种状态">
+      <created>1615458123907</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615458123907</updated>
+    </task>
+    <task id="LOCAL-00011" summary="增加拼团线上测试和线上的配置文件库">
+      <created>1615971452846</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615971452846</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加多数据源配置" />
+    <MESSAGE value="增加监听拼团结束时间的数据，修改活动状态" />
+    <MESSAGE value="增加监听拼团结束时间的数据，修改活动状态,增加写入队列" />
+    <MESSAGE value="业务端同步接口" />
+    <MESSAGE value="业务端同步接口,处理同步的四种状态" />
+    <MESSAGE value="增加拼团线上测试和线上的配置文件库" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加拼团线上测试和线上的配置文件库" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coupon/service/impl/CouponServiceImpl.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coupon/service/impl/CouponServiceImpl.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coupon/component/MyMetaObjectHandle.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coupon/controller/groupwork/GroupController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coupon/controller/groupwork/GroupController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coupon/service/CouponServiceImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coupon/dynamic/datasource/config/DynamicDataSourceConfig.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coupon/dynamic/datasource/config/DynamicDataSourceConfig.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coupon/dynamic/datasource/config/DynamicDataSourceConfig.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coupon/dynamic/datasource/config/DynamicDataSourceConfig.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coupon/service/group/impl/GroupActivityServiceImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_261/src.zip!/java/util/HashMap.java</url>
+          <line>627</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pf_coupon$PfCouponApplication.ic" NAME="PfCouponApplication Coverage Results" MODIFIED="1620820547240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

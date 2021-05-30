@@ -1,0 +1,62 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    coupon:
+      name: pf_coupon
+      jdbc-url: jdbc:mysql://172.21.0.53:3306/pf_coupon?useUnicode=true&characterEncoding=UTF-8&useSSL=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+      username: pf_coupon
+      password: lH@Oy3o12
+    group:
+      jdbc-url: jdbc:mysql://172.21.0.53:3306/pf_groupwork?useUnicode=true&characterEncoding=UTF-8&useSSL=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+      username: pf_groupwork
+      password: jLY@$Oy21o
+      name: pf_groupwork
+
+  #Redis
+  redis:
+    host: 172.21.32.16
+    #端口号
+    port: 6379
+    #密码
+    password: Mhxzkhl@coupon
+    #客户端超时时间单位是毫秒 默认是2000
+    timeout: 10000
+    # Redis数据库索引（默认为0）
+    database: 0
+    instanceid: pf_coupon
+
+  #rabbitmq相关配置
+  rabbitmq:
+    host: 172.21.0.117
+    port: 5672
+    username: pf_coupon
+    password: yuelvhui
+    virtual-host: pf_coupon
+
+request:
+  domain:
+    message: https://gateway.yueshang.shop/message/v1
+    common: https://gateway.yueshang.shop/common/v1
+    permissions: https://gateway.yueshang.shop/permission/v2
+
+ziying:
+  sortUrl: https://gateway.yueshang.shop/mall/v1/api/v1/queryCategory
+  productUrl: https://gateway.yueshang.shop/mall/v1/api/v1/queryYcLoudProductList
+  skuUrl: https://gateway.yueshang.shop/mall/v1/api/v1/queryProductSku
+  pms:
+    appKey: pms
+    appSecret: 80e9fc22001cd7b0808ebebb9aee76d6
+    account: 14
+
+memberCenter:
+  syncCoupon: http://gateway.yueshang.shop/member/v1/coupon/operation
+  batchOnline: http://gateway.yueshang.shop/member/v1/coupon/invalidCoupons
+
+goodsCenter:
+  goodsUrl: https://gateway.yueshang.shop/mall/v1/middle/queryProductList
+
+noticeUrl:
+  ljt:
+    groupNoticeUrl: https://neighbour.yuetao.vip/api/combination/syncCombinationStatus
+    activityNoticeUrl: https://neighbour.yuetao.vip/api/combination/syncOfflineCombination

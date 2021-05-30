@@ -1,0 +1,30 @@
+mq:
+  env: pf_coupon
+queue:
+  name:
+    waiting:
+      coupon:
+        batch: ${mq.env}.queue.name.waiting.coupon.batch
+exchange:
+  name:
+   waiting:
+     coupon:
+       batch: ${mq.env}.exchange.name.waiting.coupon.batch
+routing:
+  key:
+    name:
+      waiting:
+        coupon:
+          batch: ${mq.env}.routing.key.name.exchange.coupon.batch
+
+max:
+  insert:
+    num: 300
+  select:
+    pageSize: 1000
+white:
+  ip: "49.232.73.92"
+
+systems:
+  id: "SYS202009070011"
+  key: "CfdHybZUy6eCKDyGg90Dk4J5sEVJ39GA"

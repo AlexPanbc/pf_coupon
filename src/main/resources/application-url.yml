@@ -1,0 +1,12 @@
+pf:
+  message:
+    email:
+      send: ${request.domain.message}/email/send
+  common:
+    upload: ${request.domain.common}/image/uploadPrivate
+    auth: ${request.domain.common}/image/auth
+    upload-file: ${request.domain.common}/file/upload
+    download-file: ${request.domain.common}/file/download
+  permissions:
+    manager: ${request.domain.permissions}/manager/token
+    merchant: ${request.domain.permissions}/merchant/token

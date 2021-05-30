@@ -1,0 +1,7 @@
+#异步线程池配置
+async:
+  executor:
+    thread:
+      core_pool_size: 20
+      max_pool_size: 20
+      queue_capacity: 100
