@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54d754c2-6159-4345-b9cb-9bf4ca575de7" name="Default Changelist" comment="" />
+    <list default="true" id="54d754c2-6159-4345-b9cb-9bf4ca575de7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/PfCouponApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/aop/ControllerLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/aop/ServiceLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/component/MyMetaObjectHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/AsyncConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/DataSourceConfigCoupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/DataSourceConfigGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/InterceptorConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/LocalDateTimeFormatConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/MultipartResolverConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/RedisConfigProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/rabbit/BindingConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/rabbit/ExchangeConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/rabbit/QueueConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/config/rabbit/RabbitMQConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/controller/groupwork/GroupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/dao/CouponDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/dao/GroupActivityDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/datasources/DataSourceNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/datasources/DynamicDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/datasources/DynamicDataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/datasources/annotation/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/datasources/aspect/DataSourceAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/entity/CouponEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/entity/group/GroupActivityEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/enums/group/ActivityStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/enums/group/ActivityTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/enums/group/HeadEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/enums/group/MerchantInfoEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/enums/group/OpenStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/enums/group/OrderStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/enums/group/PurchasingTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/filter/SecurityFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/generate/GenerateNumberManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/generate/impl/GenerateConfirmationNumberManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/generate/impl/GenerateCouponBathNumManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/generate/impl/GenerateCouponCodeManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/generate/impl/GenerateCouponTempletNumManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/generate/impl/GenerateSequenceIdManagerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/handler/ApiResultHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/handler/WebExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/interceptor/AuthenticationInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/interceptor/ManagerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/interceptor/SubmitAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/interfaces/ManagerToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/interfaces/NoRepeatSubmit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/interfaces/SystemToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/job/group/GroupActivityExpireJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/service/CouponService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/service/CouponServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/service/group/GroupActivityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/service/group/impl/GroupActivityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/AESEncryptUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/Base64PicUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/BeanUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/CacheKeyBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/CalendarHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/Pager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/RSAEncryptUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/Randomutil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/RequestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/ResultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/SignUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/SnowFlakeSimplifiedUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/SnowFlakeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/WrappedBeanCopier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/rabbitmq/BindingKeyBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/rabbitmq/ExchangeKeyBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/rabbitmq/QueueKeyBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/redis/JsonSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/redis/RedisClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/redis/RedisClientInvoker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/redis/RedisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/redis/SystemClock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coupon/utils/redis/TimeUnitUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-async.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-url.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/Coupon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/GroupActivity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/coupon/MysqlGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/coupon/batch/CouponBatchServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/coupon/batch/index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/coupon/batch/index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/pf_coupon.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-async.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-url.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/PfCouponApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/aop/ControllerLogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/aop/ServiceLogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/component/MyMetaObjectHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/AsyncConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/InterceptorConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/LocalDateTimeFormatConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/MultipartResolverConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/RedisConfigProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/rabbit/BindingConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/rabbit/ExchangeConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/rabbit/QueueConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/rabbit/RabbitMQConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/rabbit/RabbitMQConfig$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/config/rabbit/RabbitMQConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/controller/groupwork/GroupController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/dao/CouponDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/dao/GroupActivityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/datasources/DataSourceNames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/datasources/DynamicDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/datasources/DynamicDataSourceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/datasources/annotation/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/datasources/aspect/DataSourceAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/entity/CouponEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/entity/group/GroupActivityEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/enums/group/ActivityStatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/enums/group/ActivityTypeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/enums/group/HeadEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/enums/group/MerchantInfoEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/enums/group/OpenStatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/enums/group/OrderStatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/enums/group/PurchasingTypeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/filter/SecurityFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/generate/GenerateNumberManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/generate/impl/GenerateConfirmationNumberManagerImpl$Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/generate/impl/GenerateConfirmationNumberManagerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/generate/impl/GenerateCouponBathNumManagerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/generate/impl/GenerateCouponCodeManagerImpl$Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/generate/impl/GenerateCouponCodeManagerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/generate/impl/GenerateCouponTempletNumManagerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/generate/impl/GenerateSequenceIdManagerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/handler/ApiResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/handler/WebExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/interceptor/AuthenticationInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/interceptor/ManagerInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/interceptor/SubmitAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/interfaces/ManagerToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/interfaces/NoRepeatSubmit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/interfaces/SystemToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/job/group/GroupActivityExpireJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/service/CouponService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/service/CouponServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/service/group/GroupActivityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/service/group/impl/GroupActivityServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/AESEncryptUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/Base64PicUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/BeanUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/CacheKeyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/CalendarHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/ErrorCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/Pager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/RSAEncryptUtil$KeyPairInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/RSAEncryptUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/Randomutil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/RequestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/ResultMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/SignUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/SnowFlakeSimplifiedUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/SnowFlakeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/WrappedBeanCopier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/rabbitmq/BindingKeyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/rabbitmq/ExchangeKeyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/rabbitmq/QueueKeyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/redis/JsonSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/redis/RedisClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/redis/RedisClientInvoker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/redis/RedisService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/redis/SystemClock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coupon/utils/redis/TimeUnitUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/Coupon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/GroupActivity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pf_coupon-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pf_coupon-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/coupon/MysqlGenerator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/coupon/MysqlGenerator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/coupon/MysqlGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/coupon/PfCouponApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,36 +520,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coupon/service/group/impl/GroupActivityServiceImpl.java</url>
           <line>32</line>
           <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/coupon/PfCouponApplicationTests.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk1.8.0_261/src.zip!/java/util/HashMap.java</url>
